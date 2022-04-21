@@ -1,0 +1,9 @@
+#Anaconda software for jupyter notebook environment
+#required modules
+pandas
+numpy
+matplotlib
+sklearn
+keras
+math
+datetime

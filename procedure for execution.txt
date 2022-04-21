@@ -1,0 +1,30 @@
+#Step by step procedure
+
+1: Download Anaconda software and install Jupyter Notebook
+
+2: Download and install the required modules on Jupyter Notebook
+
+use the following command to install modules in anaconda prompt
+
+" py -m pip install * modules names seperated by a space * "
+
+OR
+
+copy all the required modules names in a text file on the desktop. open the anaconda prompt on the desktop and type the following command
+
+" py -m pip install -r file_name.txt "  
+
+and click enter to install all the required modules with single command.
+
+
+3: Open the Jupyter notebook " LSTM future prediction.ipynb " in Juptyer environment and import the required modules.
+
+4: change the csv file name to your required company name you want to predict
+
+some of the companies previous data is present in the datasets folder
+
+change the line in module-2
+
+df = pd.read_csv("datasets/*****.csv") #fill the file name of your company you want to predict in *****.csv
+
+5: run all the modules in the jupyter notebook and the result will be displayed at the last.
